@@ -1,1 +1,3 @@
-console.log('app.js')
+$.get('manifest.json', function(data) {
+	console.log(data)
+})
