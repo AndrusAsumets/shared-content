@@ -2,7 +2,7 @@ $.get('manifest.json', function(manifest) {
 	for (i = 0; i < manifest.length; i++) {
 		var fileName = manifest[i].fileName
 		
-		fetchContent(fileName, function(fileName, file) {
+		fetchContent(fileName, function(err, fileName, file) {
 			var username = fileName.split('.')[0]
 			
 			for (i = 0; i < file.length; i++) {
