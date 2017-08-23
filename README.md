@@ -1,6 +1,6 @@
-* publish:  
+* Publish:  
 `npm run install`  
 `npm run publish` 
 
-* see  
+* See  
 `https://andrusasumets.github.io/shared-content/`
