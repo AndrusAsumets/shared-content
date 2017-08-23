@@ -1,4 +1,4 @@
-* publish: 
+* publish:  
 `npm run install`  
 `npm run publish` 
 
