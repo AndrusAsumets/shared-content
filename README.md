@@ -2,5 +2,5 @@
 `npm run install`  
 `npm run publish` 
 
-* see 
+* see  
 `https://andrusasumets.github.io/shared-content/`
