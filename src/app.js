@@ -1,12 +1,8 @@
-$.get('manifest.json', function(data) {
-	var manifest = JSON.parse(data)
-	
+$.get('manifest.json', function(manifest) {
 	for (i = 0; i < manifest.length; i++) {
 		var fileName = manifest[i].fileName
 		
-		$.get(fileName, function(data) {
-			var file = JSON.parse(data)
-			
+		$.get(fileName, function(file) {
 			for (i = 0; i < file.length; i++) {
 				var item = file[i]
 				
