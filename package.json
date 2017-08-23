@@ -1,0 +1,16 @@
+{
+  "name": "shared-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "publish": "node scripts/publish.js"
+  },
+  "author": "",
+  "license": "",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
