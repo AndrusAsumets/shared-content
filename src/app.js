@@ -3,10 +3,12 @@ $.get('manifest.json', function(manifest) {
 		var fileName = manifest[i].fileName
 		
 		$.get(fileName, function(file) {
+			var username = fileName.split('.')[0
+			]
 			for (i = 0; i < file.length; i++) {
-				var item = file[i]
+				var item = file[i].item
 				
-				console.log(item)
+				$('.app').append(username + ': ' + item)
 			}
 		})
 	}
